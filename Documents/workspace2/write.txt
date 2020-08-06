@@ -1,3 +1,0 @@
-Hi I'm read.txt file. 
-you will see these texts on you write.txt file.
-see you there!
