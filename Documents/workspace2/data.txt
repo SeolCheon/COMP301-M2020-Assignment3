@@ -1,0 +1,10 @@
+1,Jane,Shella,150
+2,Sean,Viki,160
+3,Carmella,Radagio,120
+4,Yuki,Amada,140
+5,Ted,Weatherson,155
+6,Jackson,Hwang,148
+7,Amber,Jean,162
+8,Kevin,Penner,151
+9,Christine,Bella,143
+10,Stella,Watson,139
