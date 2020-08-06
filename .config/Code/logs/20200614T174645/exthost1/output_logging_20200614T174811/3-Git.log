@@ -1,0 +1,22 @@
+Looking for git in: git
+Using git 2.26.2 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/seol/Documents/workspace
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :index.html
+> git ls-files --stage -- /home/seol/Documents/workspace/index.html
+> git check-ignore -v -z --stdin
+> git cat-file -s 4c50b7c17589ad0b34ee70ae10652df58c31bc8f
+> git check-ignore -v -z --stdin
+> git show :Scripts/app.js
+> git ls-files --stage -- /home/seol/Documents/workspace/Scripts/app.js
+> git cat-file -s 4c69f96479d475a6bf35673b0daa637c9b347719
+> git status -z -u
