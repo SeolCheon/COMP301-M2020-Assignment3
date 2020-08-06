@@ -1,4 +1,4 @@
-#HEADER COMMENT
+
 """
 File name : payroll.py
 Author's name : Seol Cheon
@@ -24,11 +24,11 @@ print("---------------------------------------------")
 '''print this line'''
 
 for record in records:
-    empDetail = record.split(",")
-    '''split record by comma and assign those elements in empDetail array'''
-    empNumber = empDetail[0]
-    empName = empDetail[1]+" "+empDetail[2]
-    hourWorked = empDetail[3]
+    employInfo = record.split(",")
+    '''split record by comma and assign those elements in employInfo array'''
+    empNumber = employInfo[0]
+    empName = employInfo[1]+" "+employInfo[2]
+    hourWorked = employInfo[3]
     
     print("%13s | %19s | %8s " %(empNumber,empName,hourWorked))
     '''print data'''

@@ -1,4 +1,4 @@
-#HEADER COMMENT
+
 """
 File name : copyfile.py
 Author's name : Seol Cheon
@@ -8,10 +8,10 @@ file description : This script will copy the contents of one file into another f
 
 
 '''prompt the user to enter the source file name'''
-source=input("enter the source filename with extension: ")
+source=input("enter the source filename : ")
 
 '''prompt the user to enter the destination file name''' 
-destination=input("enter the destination filename with extension: ")
+destination=input("enter the destination filename : ")
 
 '''open source file in read mode'''
 source=open(source,"r")
@@ -20,7 +20,7 @@ source=open(source,"r")
 destination=open(destination,"w+")
 
 '''read the content of source file and assign that as a content'''
-content=source.read()
+texts=source.read()
 
 '''write content to destination file'''
-destination.write(content)
+destination.write(texts)
